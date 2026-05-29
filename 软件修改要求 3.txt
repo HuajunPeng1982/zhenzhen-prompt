@@ -1,0 +1,15 @@
+修改要求：在帧与帧提示词之间，每帧提示词末尾加上英文 ',zhuanchang'
+举例：原提示词如下
+| Segment | Start | End | Transition | Prompt |
+|---------|-------|-----|------------|--------|
+| 1 | 0.0 | 4.0 | 0.0 | Fixed camera, medium shot of the upper body. Holding the camera steadily with her right hand for a selfie, gracefully opening her left palm upwards to show the scenery behind her to the audience, lips opening and closing naturally for a vlog intro. Wearing a sweet smile with bright, gentle eyes. |
+| 2 | 4.0 | 8.0 | 1.0 | Slowly push in to a facial close-up. The left hand drops naturally, the head tilts slightly to the right, continuing to interact easily with the camera. The smile gradually deepens, eyes full of affinity, a gentle breeze slightly blowing the stray hairs by her cheeks. |
+| 3 | 8.0 | 11.0 | 1.0 | Camera tilts down and shifts focus, presenting a close-up of the camera. The fingers of the right hand gently grip the tripod and slightly adjust the camera angle, the side flip screen of the camera is unfolded. The person in the background is completely blurred out, highlighting the metallic texture of the device. |
+| 4 | 11.0 | 15.0 | 1.2 | Camera pans right, presenting a close-up of the side profile and neck. The person slowly turns her head to the right to look at the scenery, causing the floral hair accessories and long tassel earrings to sway gently. A faint smile remains on the corners of her mouth, and the sunlight outlines a soft silhouette on her hair. |
+修改为：
+| Segment | Start | End | Transition | Prompt |
+|---------|-------|-----|------------|--------|
+| 1 | 0.0 | 4.0 | 0.0 | Fixed camera, medium shot of the upper body. Holding the camera steadily with her right hand for a selfie, gracefully opening her left palm upwards to show the scenery behind her to the audience, lips opening and closing naturally for a vlog intro. Wearing a sweet smile with bright, gentle eyes.,zhuanchang |
+| 2 | 4.0 | 8.0 | 1.0 | Slowly push in to a facial close-up. The left hand drops naturally, the head tilts slightly to the right, continuing to interact easily with the camera. The smile gradually deepens, eyes full of affinity, a gentle breeze slightly blowing the stray hairs by her cheeks.,zhuanchang  |
+| 3 | 8.0 | 11.0 | 1.0 | Camera tilts down and shifts focus, presenting a close-up of the camera. The fingers of the right hand gently grip the tripod and slightly adjust the camera angle, the side flip screen of the camera is unfolded. The person in the background is completely blurred out, highlighting the metallic texture of the device. ,zhuanchang |
+| 4 | 11.0 | 15.0 | 1.2 | Camera pans right, presenting a close-up of the side profile and neck. The person slowly turns her head to the right to look at the scenery, causing the floral hair accessories and long tassel earrings to sway gently. A faint smile remains on the corners of her mouth, and the sunlight outlines a soft silhouette on her hair. |
