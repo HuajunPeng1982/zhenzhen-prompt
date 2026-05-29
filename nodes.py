@@ -6,7 +6,7 @@ import torch
 from .gemini_client import generate_prompts
 
 
-class LTX23FramesPrompt:
+class ZhenzhenPrompt:
     """输入序列关键帧（首帧→中帧→尾帧），经由 Gemini 兼容 API 生成视频提示词。
     输出 1 个全局提示词（不变的主体/场景/风格）+ N 个局部提示词（每张参考图一个，描述变化）。
     """

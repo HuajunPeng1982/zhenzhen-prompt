@@ -1,12 +1,12 @@
 """LTX2.3 Frames Prompt — ComfyUI custom node for video prompt generation."""
 
-from .nodes import LTX23FramesPrompt
+from .nodes import ZhenzhenPrompt
 
 NODE_CLASS_MAPPINGS = {
-    "LTX23FramesPrompt": LTX23FramesPrompt,
+    "ZhenzhenPrompt": ZhenzhenPrompt,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "LTX23FramesPrompt": "zhenzhen-prompt",
+    "ZhenzhenPrompt": "zhenzhen-prompt",
 }
 
